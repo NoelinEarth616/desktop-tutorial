@@ -52,6 +52,14 @@ def show_student(a, age):
 display_student("Emma", 26)
 show_student("Emma", 26)
 
+print("ý 3.3")
+def find_largest_number(numbers):
+    if not numbers:
+        return None  
+    return max(numbers)
+x = [4, 6, 8, 24, 12, 2]
+print(find_largest_number(x))
+
 print("ý 4")
 n=int(input("Enter number:"))
 temp=n

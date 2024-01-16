@@ -19,7 +19,7 @@ elif beforeS2 < 0:
 else:
     print("S2 là: ",beforeS2)
 
-#ý d)
+#ý d) e)
 a = int(input("Nhập a: "))
 b = int(input("Nhập b: "))
 c = int(input("Nhập c: "))
@@ -34,8 +34,14 @@ def heron(a, b, c):
     p = (a + b + c)/2
     area = math.sqrt(p*(p-a)*(p-b)*(p-c))
     print(f"The area is {area}")
-
+    chuvi = p * 2
+    print("Chu vi là: ",chuvi)
 heron(a, b, c)
-chuvi = p * 2
-print("Chu vi là: ",chuvi)
+
+#3
+a = int(input("Nhập a: "))
+b = int(input("Nhập b: "))
+c = int(input("Nhập c: "))
+print(f"Số lớn nhất là: {max(a, b, c)}")
+print(f"Số nhỏ nhất là: {min(a, b, c)}")
 
